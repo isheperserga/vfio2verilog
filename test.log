@@ -1,0 +1,769 @@
+vfio_region_read  (0000:04:00.0:region0+0x0, 4) = 0x7000200
+vfio_region_read  (0000:04:00.0:region0+0x4, 4) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x10, 0xffffffff, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x1, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x2, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x4, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x8, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x10, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x20, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x40, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x80, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x100, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x200, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x400, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x800, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x1000, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x2000, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x4000, 4)
+vfio_region_write  (0000:04:00.0:region0+0xc, 0x8000, 4)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1005, 0x40, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0x8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1005, 1) = 0x16
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0x9, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1005, 1) = 0xc9
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0xa, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1005, 1) = 0x50
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0xb, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1005, 1) = 0xd
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1005, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1005, 1) = 0x60
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c3, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10cc, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c7, 0x70, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1205, 0x40, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0x8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1205, 1) = 0x16
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0x9, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_read  (0000:04:00.0:region0+0x1205, 1) = 0xc9
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0xa, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1205, 1) = 0x50
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0xb, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1205, 1) = 0xd
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1205, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x9a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1205, 1) = 0x60
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x11, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x13, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c7, 0x70, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10d7, 0x1f, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0x1
+vfio_region_read  (0000:04:00.0:region0+0x1005, 1) = 0x60
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1007, 0x5a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1007, 1) = 0x5a
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c3, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10cc, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x81, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x81
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x83, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c3, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12cc, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x83
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x83, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x10c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c7, 0x70, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x11, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x13, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region1+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x10c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x10c7, 0x70, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0xf, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x83
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0xf, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x1
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0xc2
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c7, 0x70, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x80
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0xc1
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1087, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1000, 1) = 0x78
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x1
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0xc2
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0xc1
+vfio_region_read  (0000:04:00.0:region0+0x1087, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x11, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x13, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c7, 0x70, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12d7, 0x1f, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0x1
+vfio_region_read  (0000:04:00.0:region0+0x1205, 1) = 0x60
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1207, 0x5a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1207, 1) = 0x5a
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c3, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12cc, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x81, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x81
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x83, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x83
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x83, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c7, 0x70, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x11, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x13, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c7, 0x70, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0xf, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0xc2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0xc1
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x83
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0xf, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0x2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0x1
+vfio_region_read  (0000:04:00.0:region0+0x1287, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1200, 1) = 0x8d
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0xc2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0xc1
+vfio_region_read  (0000:04:00.0:region0+0x1287, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x1a
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x1a
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x9a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x1a, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x82, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x82, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x82, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x82, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8a, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8a
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8a
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x88, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x88, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x89
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x88
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x89, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x89
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x8b, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x8b, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1200, 1) = 0x8d
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x2
+vfio_region_read  (0000:04:00.0:region0+0x1201, 1) = 0xf
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0xa, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x3
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0xc2
+vfio_region_read  (0000:04:00.0:region0+0x1202, 1) = 0xc1
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x1
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1287, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1000, 1) = 0x78
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x1, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1287, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x83, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1202, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0xc2
+vfio_region_read  (0000:04:00.0:region0+0x1002, 1) = 0xc1
+vfio_region_read  (0000:04:00.0:region0+0x1087, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1001, 1) = 0xf
+vfio_region_read  (0000:04:00.0:region0+0x8, 4) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0xa, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1087, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1087, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x8b
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x83, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1002, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x83
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x83
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x82, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x82
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x82, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x82
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c3, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10cc, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c3, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12cc, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x80
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1294, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1296, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1094, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1096, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1206, 1) = 0x0
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1006, 1) = 0x0
+vfio_region_read  (0000:04:00.0:region0+0x1292, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x1292, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1092, 1) = 0x10
+vfio_region_write  (0000:04:00.0:region0+0x12c2, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1092, 0x10, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1203, 1) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x10c2, 0x0, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1003, 1) = 0x2
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x82, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x82, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1200, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1000, 0x69, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1201, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1001, 0x0, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1003, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1203, 0x2, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c1, 0xf8, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1204, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x10c1, 0xf8, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1204, 0x80, 1)
+vfio_region_read  (0000:04:00.0:region0+0x1004, 1) = 0x80
+vfio_region_write  (0000:04:00.0:region0+0x12c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x1004, 0x80, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c5, 0x1, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c4, 0x4, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c0, 0x20, 1)
+vfio_region_write  (0000:04:00.0:region0+0x12c7, 0x70, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c6, 0x10, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10c7, 0x70, 1)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x8000, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x4000, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x2000, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x1000, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x800, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x400, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x200, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x100, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x80, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x40, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x20, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x10, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x8, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x4, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x2, 4)
+vfio_region_write  (0000:04:00.0:region0+0x10, 0x1, 4)
